@@ -1,0 +1,35 @@
+/* src/components/Login.css */
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  background-color: #282c34; /* Matches the dark theme */
+}
+
+.login-button {
+  padding: 15px 32px;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #5f41e4; /* Primary color */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease,
+    box-shadow 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.login-button:hover {
+  background-color: #4320df; /* Darker shade on hover */
+}
+
+.login-button:active {
+  transform: scale(0.95); /* Button press effect */
+}
+
+.login-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(95, 65, 228, 0.5); /* Focus ring */
+}
